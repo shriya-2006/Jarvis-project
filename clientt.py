@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="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",  # your Groq key here
+    api_key="api_key="YOUR_GROQ_API_KEY",  # your Groq key here
     base_url="https://api.groq.com/openai/v1"    # <== this is key!
 )
 
