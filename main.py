@@ -12,7 +12,7 @@ import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "10100c17eada4e3ca02450b82382d4c8"
+newsapi = "YOUR_NEWS_API_KEY""
 
 def speak_old(text):
     engine.say(text)
@@ -41,7 +41,7 @@ def speak(text):
 
 def aiProcess(command):
     client = OpenAI(
-        api_key="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",
+        api_key="YOUR_GROQ_API_KEY",
         base_url="https://api.groq.com/openai/v1"
 
     )
